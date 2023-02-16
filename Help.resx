@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label2.Text" xml:space="preserve">
+    <value>• Do you have any plans to include more tables and features?
+- Yes. Currently I've only added the most important tables to test how useful this sort of tool is. I was hoping to have built-in PAK creation, but I simply don't have the time to work on a lot due to focusing on University.
+
+• Do I need other software for this?
+- Only UnrealPak, which is bundled with the tool when you install it. In the future, anything related to UnrealPak will be done within Transfiguration.
+
+• How do I use Custom SQL?
+- All relevant information is included within this page. Scroll down and you should find it!
+
+• Why use this tool over something like DB Browser?
+- Of course, this tool is nowhere near as advanced as DB Browser or other similar software, but what it offers is an easy and simplified way to edit particular things. If you're a beginner and haven't quite gotten a grasp on SQL, then this tool is for you.</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Step 1: Locate the PhoenixShipData.sqlite file you wish to edit, and open it by using the "Open File" button. If you don't have a PhoenixShipData.sqlite file, there is one packaged with the tool under the "Extras" folder. Once the file is opened, a copy is made under "builds/Phoenix/Content/SQLiteDB" in the Transfiguration folder. This is so you can keep your existing PhoenixShipData.sqlite file clean in case anything goes wrong.
+
+Step 2: Decide which table you want to edit first, these can be found under the "Tables" section. Once you've decided, click on the corresponding menu option and you should see a jumble of fields pop up.
+
+Step 3: Select the dropdown at the top of the page, and select which record you wish to edit. Once selected, you should see the fields refresh with new data corresponding to the record you selected.
+
+Step 4: Make as many changes as you see fit to the selected record, and then press "Update Record". This is CRUCIAL, as when you change to a new record any changes not pushed will be lost.
+
+Step 5: Once you're finished making changes, scroll down to the UnrealPak guide section to learn how to push your changes to the game</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>NOTE: The table viewer does not allow editing of the values you see, at least not yet. Once I have time I may merge the table viewer and table editor together. For now this is only included to make the use of custom SQL much easier, and also for anyone wanting to have a nosey and see what's hidden in the database. :)
+
+Step 1: See "Table Editor Guide"
+
+Step 2: Navigate to the "Table Viewer" option and select it.
+
+Step 3: You will see an empty grid box, a dropdown and a button labelled "Load Tables". Press this, and let it run. Once a popup appears on your screen notifying you that the tables have successfully loaded you can move on to Step 4.
+
+Step 4: Select the dropdown, and you will see it is now populated with hundreds of tables. Now you can feel free to look around each table within the database.</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>NOTE: Custom SQL was included with experienced users of SQL in mind. It is extremely simple, and unless you know SQL commands you should try to avoid it until I can add more tables to the tool. If you're desperate though, there will be links included here to learn a bit more about SQL :)
+
+Step 1: See "Table Editor Guide"
+
+Step 2: Navigate to the Custom SQL option and select it. 
+
+Step 3: Within this page you will see a block of text explaining a bit more about custom SQL, as well as an agreement before you can use the textbox and execute button. Have a read of the text.
+
+Step 4: Click the checkbox to signal you agree that invalid SQL commands can cause issues with the DB, and that you know what you're doing. 
+
+Step 5: Type your SQL command into the textbox, and then select the "Execute" button. If your command was valid, you should see a popup notifying you that the changes made were successful. You can view any changes you've made within the Table Viewer.</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Step 1: Navigate to the Transfiguration folder.
+
+Step 2: Copy the "builds" folder, but don't paste it yet.
+
+Step 2: Open the "Extras" folder, and then "UnrealPak".
+
+Step 3: Paste the "builds" folder into the folder you've just entered, and change it's name to {yourtext}_P.
+
+Step 4: Once you've renamed the folder, drag it on to the "UnrealPak-With-Compression.bat" file and wait for it to complete. This will create {yourtext}_P.pak. 
+
+Step 5: Place the .PAK in \Hogwarts Legacy\Phoenix\Content\Paks\~mods
+
+Credit to tucker from the Hogwarts Legacy Modding discord server for this tutorial.</value>
+  </data>
+</root>

@@ -1,0 +1,1 @@
+Transfiguration is a modding tool for Hogwarts Legacy which is designed to allow users to safely, and easily edit the PhoenixShipData.sqlite database.
